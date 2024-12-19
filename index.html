@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuliner Indonesia</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        .category { display: none; }
+        .category:target { display: block; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Kuliner Indonesia</h1>
+        <p>Jelajahi kekayaan kuliner Nusantara</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#beranda">Beranda</a></li>
+            <li><a href="#appetizer">Appetizer</a></li>
+            <li><a href="#main-course">Main Course</a></li>
+            <li><a href="#dessert">Dessert</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="intro">
+            <h2>Selamat Datang di Kuliner Indonesia</h2>
+            <p>Rasakan kelezatan berbagai makanan khas Indonesia, mulai dari hidangan pembuka yang menggugah selera, hidangan utama yang kaya rasa, hingga hidangan penutup yang manis dan menyegarkan. Klik salah satu kategori di atas untuk menjelajahi lebih lanjut!</p>
+        </section>
+
+        <section id="appetizer" class="category">
+            <h2>Appetizer</h2>
+            <div class="card">
+                <img src="images/tahuisi.png" alt="Tahu Isi">
+                <h3>Tahu Isi</h3>
+                <p>Gorengan tahu dengan isian sayuran yang gurih dan renyah.</p>
+            </div>
+            <div class="card">
+                <img src="images/bakwanjagung.png" alt="Bakwan Jagung">
+                <h3>Bakwan Jagung</h3>
+                <p>Perpaduan jagung dan sayuran dalam balutan tepung yang digoreng.</p>
+            </div>
+        </section>
+
+        <section id="main-course" class="category">
+            <h2>Main Course</h2>
+            <div class="card">
+                <img src="images/rendang.jpg" alt="Rendang">
+                <h3>Rendang</h3>
+                <p>Masakan daging sapi khas Padang yang kaya akan rempah.</p>
+            </div>
+            <div class="card">
+                <img src="images/nasigoreng.png" alt="Nasi Goreng">
+                <h3>Nasi Goreng</h3>
+                <p>Nasi goreng khas Indonesia dengan bumbu yang lezat.</p>
+            </div>
+        </section>
+
+        <section id="dessert" class="category">
+            <h2>Dessert</h2>
+            <div class="card">
+                <img src="images/escendol.png" alt="Es Cendol">
+                <h3>Es Cendol</h3>
+                <p>Minuman manis dengan cendol, santan, dan gula merah.</p>
+            </div>
+            <div class="card">
+                <img src="images/kuelapis.png" alt="Kue Lapis">
+                <h3>Kue Lapis</h3>
+                <p>Kue tradisional dengan lapisan warna-warni yang manis.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Kuliner Indonesia. Semua Hak Dilindungi.</p>
+    </footer>
+</body>
+</html>
